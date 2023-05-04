@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="./styles/index.css"/>
+    <link rel="stylesheet" href="./styles/projectselipsis.css"/>
     <title>Dashboard</title>
 </head>
 <body>
@@ -25,7 +26,7 @@
     </div>
     <div class="main">
         <div class="header">
-            <h4><img src="./images/header_icon.jpg" />Admin Dashboard</h4>
+            <h4><img src="/images/header_icon.jpg" />Admin Dashboard</h4>
         </div>
         <div class="cardssection">
             <h3>Overview</h3>
@@ -47,7 +48,7 @@
                 </div>
                 <div class="card">
                     <div class="logo">
-                        <img src="/images/completed.jpg"/>
+                        <img src="./images/completed.jpg"/>
                     </div>
                     <h4 style="color: green;">Completed Projects</h4>
                     <h5 style="color:green":>10</h5>
@@ -59,6 +60,7 @@
                     <h4 style="color: red;">Incomplete Projects</h4>
                     <h5 style="color: red;">5</h5>
                 </div>
+                
             </div>
         </div>
       <div class="projectssection">
@@ -75,10 +77,16 @@
                 <h5>user1</h5>
                 <h5 style="color: green;">completed</h5>
                 <div class="icons">
-                <ion-icon name="trash-outline"></ion-icon>
-                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
-                <ion-icon name="sync-circle-outline"></ion-icon>
-                <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                    <div class="dropdown">
+                        <ion-icon name="ellipsis-vertical-circle-outline"></ion-icon>
+                        <div class="dropdown-options">
+                          <a href="#">Update</a>
+                          <a href="#">Reassign</a>
+                          <a href="#">Delete</a>
+                        </div>
+                      </div>
+                     
                 </div>
              </div>
              <div class="projectcard">
@@ -86,10 +94,16 @@
                 <h5>user1</h5>
                 <h5 style="color: red;">pending</h5>
                 <div class="icons">
-                    <ion-icon name="trash-outline"></ion-icon>
-                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
-                <ion-icon name="sync-circle-outline"></ion-icon>
-                <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                    <div class="dropdown">
+                        <ion-icon name="ellipsis-vertical-circle-outline"></ion-icon>
+                        <div class="dropdown-options">
+                          <a href="#">Update</a>
+                          <a href="#">Reassign</a>
+                          <a href="#">Delete</a>
+                        </div>
+                      </div>
+                  
                 </div>
              </div>
              <div class="projectcard">
@@ -97,10 +111,16 @@
                 <h5>user1</h5>
                 <h5 style="color: green;">completed</h5>
                 <div class="icons">
-                    <ion-icon name="trash-outline"></ion-icon>
-                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
-                <ion-icon name="sync-circle-outline"></ion-icon>
-                <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                    <div class="dropdown">
+                        <ion-icon name="ellipsis-vertical-circle-outline"></ion-icon>
+                        <div class="dropdown-options">
+                          <a href="#">Update</a>
+                          <a href="#">Reassign</a>
+                          <a href="#">Delete</a>
+                        </div>
+                      </div>
+                      
                 </div>
              </div>
            
@@ -109,10 +129,16 @@
                 <h5>user1</h5>
                 <h5 style="color: red;">pending</h5>
                 <div class="icons">
-                    <ion-icon name="trash-outline"></ion-icon>
-                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
-                <ion-icon name="sync-circle-outline"></ion-icon>
-                <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                    <div class="dropdown">
+                        <ion-icon name="ellipsis-vertical-circle-outline"></ion-icon>
+                        <div class="dropdown-options">
+                          <a href="#">Update</a>
+                          <a href="#">Reassign</a>
+                          <a href="#">Delete</a>
+                        </div>
+                      </div>
+                      
                 </div>
              </div>
           </div>
@@ -142,6 +168,7 @@
                 <h5>project</h5>
                 <h5><ion-icon name="trash-outline"></ion-icon></h5>
             </div>
+            
            </div>
         </div>
       </div>
