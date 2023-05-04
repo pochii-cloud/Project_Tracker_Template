@@ -80,6 +80,7 @@ ion-icon {
 
 .cardssection {
   margin-top: 50px;
+  width: 100vw;
 }
 .cardssection h3 {
   color: grey;
@@ -229,28 +230,28 @@ ion-icon {
     /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-    width: 100%;
   }
   .card {
-    width: 70vw;
+    width: 80vw;
   }
-  . {
+  .projectssection {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100vw;
   }
   .recentprojects {
-    width: 90%;
+    width: 80%;
   }
   .userslist {
-    width: 90%;
-    margin-bottom: 20vh;
+    width: 80%;
+    margin-bottom: 10vh;
   }
   .projectcard {
     width: 100%;
   }
   .footer {
-    width: 100%;
+    width: 100vw;
   }
 }
